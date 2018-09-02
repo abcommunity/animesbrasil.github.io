@@ -2,28 +2,58 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>AB © Community™</title>
+    <title>Animes Brasil © Community™</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="favicon-large.png">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400|Roboto:300,300i" rel="stylesheet">
     <style>
-      iframe#forms{
-        position: absolute;
-        min-width: 100%;
-        max-height:100%;
-        top: 0px;
-        left: 0px;
-        width:100%;
-        height:100%;
-        padding:0px;
-        margin:0px;
-        border:0px;
-        overflow: hidden;
-        overflow-x: scroll;
-      }
+        img#ab_logo {
+            width: 100px
+        }
+        
+        h1#menu-itens {
+            font-family: 'M PLUS Rounded 1c', sans-serif
+        }
+
+    
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0px;
+            bottom: 0;
+            width: 10px;
+            height: 3px;
+            margin: 0;
+            text-align: left;
+        }
+        
+        iframe#discord_widget {
+            width: 250px;
+            height: 325px;
+        }
+
     </style>
 </head>
 
 <body>
-<iframe id=forms src="https://docs.google.com/forms/d/e/1FAIpQLSfxOD4epqs2QcehGz-gN8S40d4BmhIq12NpXRftlcqld2xX-g/viewform?embedded=true">Carregando…</iframe>
+    <div class="footer">
+        <img id=footer_in-dev src="content/img/dev-build-footer.png" alt="footer_in-dev">
+    </div>
+    <img id=ab_logo src="content/img/logo.png" alt="Logo">
+    <h1 id=menu-itens>AB © Community™ Test Site</h1>
+    <p>Sejá Bem-Vindo(a) ao site oficial da AB, o site ainda está em construção, em breves mais coisas estaram disponíveis aqui, Aguarde.</p>
+    <iframe 
+    id=discord_widget
+    src="https://discordapp.com/widget?id=244297362351194113&theme=dark" 
+    width="350" 
+    height="500" 
+    allowtransparency="true" 
+    frameborder="0">
+    </iframe>
+
 </body>
 </html>
+
+  
