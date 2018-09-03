@@ -6,53 +6,91 @@
     <meta name="description" content="Welcome to the best Animes/Geek Discord Server, Welcome to Animes Brasil © Community™">
     <meta property="og:title" content="AB © Community™" />
     <meta property="og:url" content="https://animesbrasil.github.io" />
-    <meta property="og:description" content="Entre já no melhor servidor de animes e conteúdo geek do discord, venha para a Animes Brasil." />
+    <meta property="og:description" content="Entre já no melhor servidor de Animes e Conteúdo geek do Discord, venha para a Animes Brasil." />
     <meta property="og:image" content="/content/img/favicon-large">
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:locale:alternate" content="es_ES" />
     <meta property="og:locale:alternate" content="en_US" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="/content/img/favicon-large.png"/>
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400|Roboto:300,300i" rel="stylesheet">
     <style>
+
+        body    {
+            height: 100%;
+            margin: 0px;
+        }
+
+        html {
+            background-color: rgb(165, 24, 106);
+            margin: 0px;
+            height: 100%;
+        }
+
         img#ab_logo {
             width: 100px
         }
         
-        h1#menu-itens {
+        h3#menu-itens {
             font-family: 'M PLUS Rounded 1c', sans-serif
+            display: inline
         }
 
-    
         p {
             font-family: 'Roboto', sans-serif;
         }
-
-        .footer {
+/*****************************************************/
+      /*Footer Part:*/
+        div#footer {
+            background-color:rgb(104, 0, 61);
             position: fixed;
+            bottom: 0px;
             left: 0px;
-            bottom: 0;
-            width: 10px;
-            height: 3px;
-            margin: 0;
-            text-align: left;
+            width: 100%;
+            height:75px;
+            overflow: hidden;       
         }
-        
+
+        div#container {
+            min-height: 30%;
+            background-color: rgb(165, 24, 106);
+            position: relative;
+        }
+
+        div#content {
+            overflow: auto;
+            background-color:#333;
+        }
+
+        div#imginthefooter {       
+            background: url(/content/img/logo.png);
+            width:150px;
+            height:768px;
+            z-index:300;
+            bottom: 0px;
+            top: -108px;
+            right: -150px;
+            position: fixed;
+        }
+/*****************************************************/
+
         iframe#discord_widget {
             width: 250px;
             height: 325px;
+            left: 80%;
+            position: relative;
         }
+
 
     </style>
 </head>
 
 <body>
-    <div class="footer">
-        <img id=footer_in-dev src="content/img/dev-build-footer.png" alt="footer_in-dev">
-    </div>
+    <div>
     <img id=ab_logo src="content/img/logo.png" alt="Logo">
-    <h1 id=menu-itens>AB © Community™ Test Site</h1>
+    <h3 id=menu-itens>AB © Community™ Test Site</h3>
     <p>Seja Bem-Vindo(a) ao site oficial da AB, o site ainda está em construção, em breves mais coisas estaram disponíveis aqui, Aguarde.</p>
     <iframe 
     id=discord_widget
@@ -62,7 +100,13 @@
     allowtransparency="true" 
     frameborder="0">
     </iframe>
-
+    </div>
+    <div id="container">
+            <div id="nav"></div>
+                <div id="content"></div>
+                <div id="footer">
+                    <div id="imginthefooter"></div>
+    
 </body>
 </html>
 
