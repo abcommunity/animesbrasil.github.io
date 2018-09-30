@@ -182,6 +182,9 @@ h1#title1 {
     font-size: calc(20px + 1vw);
     text-align: center;
     width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
  p#paragrafo1 {
@@ -189,6 +192,9 @@ h1#title1 {
     text-align: center;
     color: white;
     width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 iframe#discord_widget {
