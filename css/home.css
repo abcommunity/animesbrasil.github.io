@@ -15,7 +15,7 @@ html {
 }
 
 html::-webkit-scrollbar{
-    background-color: rgb(180, 50, 120);
+    background-color: rgba(104, 0, 61, 0);
     width: 6.5px;
 }
 html::-webkit-scrollbar-thumb{
