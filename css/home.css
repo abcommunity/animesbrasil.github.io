@@ -73,6 +73,11 @@ nav#left > ul#left > li#left > a#left {
 .rightli {
     display: inline-block;
     list-style-type: none;
+    cursor: pointer;
+}
+
+li.left {
+    cursor: pointer;
 }
 
 #loginbutton {
