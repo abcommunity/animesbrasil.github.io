@@ -74,10 +74,22 @@ nav#left > ul#left > li#left > a#left {
     display: inline-block;
     list-style-type: none;
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.rightli a img {
+    -webkit-user-drag: none;
 }
 
 li.left {
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #loginbutton {
@@ -119,6 +131,12 @@ li.left {
     position: relative;
     margin: 10px 15px 15px 10px;
     filter: brightness(1);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 .ab_logo:hover {
     filter: brightness(0.8);
