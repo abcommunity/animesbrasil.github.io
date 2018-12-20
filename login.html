@@ -8,7 +8,7 @@
     <meta property="og:title" content="AB © Community™" />
     <meta property="og:url" content="https://animesbrasil.github.io" />
     <meta property="og:description" content="Entre já no melhor servidor de Animes e Conteúdo geek do Discord, venha para a Animes Brasil." />
-    <meta property="og:image" content="/content/img/favicon-large">
+    <meta property="og:image" content="/content/img/favicon-large.png">
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:locale:alternate" content="es_ES" />
@@ -20,7 +20,7 @@
 </head>
 	<body>
         <div class="login_block">
-            <img onclick="location.href = 'index.html'" id="ablogo" src="./content/img/logo.png">
+            <img onclick="location.href = 'index.html'" id="ablogo" alt="ab-logo" src="./content/img/logo.png">
             <p id="logintxt">Entrar</p>
             <form action="#" method="POST">
                 <input oninput="inpt(this);" onmouseover="ovr(this, true);" onmouseout="ovr(this, false);" class="form-fields" type="text" name="username" placeholder="Usuário">
@@ -28,7 +28,14 @@
                 <input id="login" class="form-button" type="submit" value="Login">
             </form>
             <p id="register">Ainda não possui uma conta? Registre-se!</p>
+			
+			<div class="back_button">
+			    
+			        <img id="backbutton-svg" alt="back" src="./content/svg/back.svg">
+			    
+		    </div>
         </div>
+		
     <script type="text/javascript" src="./js/login.js"></script>
 	</body>
 </html>
